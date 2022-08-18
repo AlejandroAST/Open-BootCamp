@@ -1,11 +1,9 @@
 # Open-BootCamp
-<h2>Ejercicios</h2>
-<ul><h3>Ejercicios de introduccion</h3>
-	<li><ul><h4>Tema 9</h4>
-			<li>Ejercicio 1</li>
-			<li>Ejercicio 2</li>
-		 </ul>
-	<li><h4>Tema 4</h4> </li>
-	<li><h4>Tema 8</h4> </li>
-	<li><ul><h4>Tema 9</h4> </li>
- </ul>
+<h1>Cursos</h1>
+<h2>Ejercicios de introduccion</h2>
+	<h3>Tema 3</h3>
+		Ejercicio 1<br>
+		Ejercicio 2
+	<h3>Tema 4</h3> 
+	<h3>Tema 8</h3> 
+	<h3>Tema 9</h3> 
