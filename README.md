@@ -7,3 +7,8 @@
 	<h3><a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Introduccion%20a%20la%20programacion/EjercicioTema4/src/Main.java">Tema 4</a></h3> 
 	<h3><a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Introduccion%20a%20la%20programacion/EjercicioTema8/src/Main.java">Tema 8</a></h3> 
 	<h3><a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Introduccion%20a%20la%20programacion/EjercicioTema9/src/Main.java">Tema 9</a></h3> 
+
+<h2>Curso Python</h2>
+	<h3>Tema 1</h3>
+		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema1-Ejercicio1.py">Ejercicio 1</a><br>
+		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema1-Ejercicio2.py">Ejercicio 2</a> 
