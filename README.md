@@ -1,5 +1,6 @@
 # Open-BootCamp
- Ejercicios
-    Tema 3
-        Ejercicio 1
-        Ejercicio 2
+<h2>Ejercicios</h2>
+<ul><h3>Tema 3</h3>
+ <li>Ejercicio 1</li>
+ <li>Ejercicio 2</li>
+ </ul>
