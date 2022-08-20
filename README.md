@@ -12,3 +12,6 @@
 	<h3>Tema 1</h3>
 		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema1-Ejercicio1.py">Ejercicio 1</a><br>
 		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema1-Ejercicio2.py">Ejercicio 2</a> 
+	<h3>Tema 2</h3>
+		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema2/Tema2-Ejercicio1.py">Ejercicio 1</a><br>
+		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema2/Tema2-Ejercicio2.py">Ejercicio 2</a> 	
