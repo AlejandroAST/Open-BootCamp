@@ -3,7 +3,7 @@ print("+" + 13 * "-" + "+")
 print(("|" + " Ejercicio 3 "+ "|\n"), end="")
 print("+" + 13 * "-" + "+")
 
-def añoBisiesto(año):
+def añoBisiesto(año: int) -> bool:
   if año % 4 != 0:
     return False
   elif año % 100 != 0:

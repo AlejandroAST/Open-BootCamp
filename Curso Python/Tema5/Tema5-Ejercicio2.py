@@ -3,8 +3,7 @@ print("+" + 13 * "-" + "+")
 print(("|" + " Ejercicio 2 "+ "|\n"), end="")
 print("+" + 13 * "-" + "+")
 
-
-def esPrimo(numero):
+def esPrimo(numero: int) -> bool:
     for i in range(2, numero):
         if numero % i ==0:
             return False
