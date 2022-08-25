@@ -1,1 +1,1 @@
-prueba fichero escritura
+El vehiculo es de color Rojo tiene 4 ruedas y 5 ventanas
