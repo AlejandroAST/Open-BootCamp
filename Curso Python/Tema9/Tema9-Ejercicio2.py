@@ -1,7 +1,7 @@
 
 def main():
     """
-    Metodo Principal, muestra las opciones al usuario
+    Metodo Principal
     """
     print("<>----<> TEMA 9 <>----<>")
     print("+" + 13 * "-" + "+")
