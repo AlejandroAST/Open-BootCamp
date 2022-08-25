@@ -7,12 +7,9 @@ def main():
     print(("|" + " Ejercicio 1 " + "|\n"), end="")
     print("+" + 13 * "-" + "+")
 
-    opciones= None
-    listaPaises=[]
-    while opciones != "salir":
-        pais=input("Escribe un pais o escribe salir para concluir: ")
-        listaPaises.append(pais)
+    listaPaises=input("Escribe la lista de paises separados por ',': ")
+    paises=listaPaises.replace(',', '').lower().split()
+    print(",".join(sorted(paises)))
 
-    print(listaPaises)
 if __name__ == '__main__':
     main()
