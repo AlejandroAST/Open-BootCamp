@@ -2,7 +2,7 @@ import sqlite3
 
 def main():
     """
-    Metodo Principal Tema 11
+    Metodo Principal Tema
     """
     print("<>----<> TEMA 11 <>----<>")
     print("+" + 13 * "-" + "+")
