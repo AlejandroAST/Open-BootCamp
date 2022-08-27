@@ -10,7 +10,7 @@ def main():
     print("+" + 13 * "-" + "+")
 
     print("Crear Tabla Alumnos")
-    # creaTablaAlumnos()
+    #creaTablaAlumnos()
     print("Insertar Datos")
     insertarAlumno(1, "Alejandro", "Fernandez")
 
