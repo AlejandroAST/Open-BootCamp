@@ -11,6 +11,7 @@ def main():
 
     print("Crear Tabla Alumnos")
     #creaTablaAlumnos()
+
     print("Insertar Datos")
     insertarAlumno(1, "Alejandro", "Fernandez")
 
