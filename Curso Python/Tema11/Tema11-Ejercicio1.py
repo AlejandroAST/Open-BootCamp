@@ -16,6 +16,7 @@ def main():
 
     #alumno: str=input("Que alumno quieres buscar: ")
     #mostrarAlumno(alumno)
+    print()
 
 def mostrarAlumno(nombre: str):
     pass
