@@ -6,33 +6,19 @@ Tema 4 <br>
 Tema 8 <br>
 Tema 9 <br>
 
-<h2>Curso Python</h2>
-	<h3>Tema 1</h3>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema1-Ejercicio1.py">Ejercicio 1</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema1-Ejercicio2.py">Ejercicio 2</a> 
-	<h3>Tema 2</h3>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema2/Tema2-Ejercicio1.py">Ejercicio 1</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema2/Tema2-Ejercicio2.py">Ejercicio 2</a> 
-	<h3>Tema 3</h3>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema3/Tema3-Ejercicio1.py">Ejercicio 1</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema3/Tema3-Ejercicio2.py">Ejercicio 2</a> 
-	<h3>Tema 4</h3>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema4/Tema4-Ejercicio1.py">Ejercicio 1</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema4/Tema4-Ejercicio2.py">Ejercicio 2</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema4/Tema4-Ejercicio3.py">Ejercicio 3</a> 
-	<h3>Tema 5</h3>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema5/Tema5-Ejercicio1.py">Ejercicio 1</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema5/Tema5-Ejercicio2.py">Ejercicio 2</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema5/Tema5-Ejercicio3.py">Ejercicio 3</a> 
-	<h3>Tema 6</h3>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema6/Tema6-Ejercicio1.py">Ejercicio 1</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema6/Tema6-Ejercicio2.py">Ejercicio 2</a> 
-	<h3>Tema 7</h3>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema7/Tema7-Ejercicio1.py">Ejercicio 1</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema7/Tema7-Ejercicio2.py">Ejercicio 2</a> 
-	<h3>Tema 8</h3>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema8/Tema8-Ejercicio1.py">Ejercicio 1</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema8/Tema8-Ejercicio2.py">Ejercicio 2</a> 	
-	<h3>Tema 9</h3>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema9/Tema9-Ejercicio1.py">Ejercicio 1</a><br>
-		<a href="https://github.com/AlejandroAST/Open-BootCamp/blob/main/Curso%20Python/Tema9/Tema9-Ejercicio2.py">Ejercicio 2</a>
+<h2><a href="https://github.com/AlejandroAST/Open-BootCamp/tree/main/Curso%20Python">Curso Python</a></h2>
+Tema 1:	 Ejercicio 1, Ejercicio 2<br>
+Tema 2:	 Ejercicio 1, Ejercicio 2<br>
+Tema 3:	 Ejercicio 1, Ejercicio 2<br>
+Tema 4:	 Ejercicio 1, Ejercicio 2, Ejercicio 3<br>
+Tema 5:	 Ejercicio 1, Ejercicio 2, Ejercicio 3<br>
+Tema 6:	 Ejercicio 1, Ejercicio 2<br>
+Tema 7:	 Ejercicio 1, Ejercicio 2<br>
+Tema 8:	 Ejercicio 1, Ejercicio 2<br>
+Tema 9:	 Ejercicio 1, Ejercicio 2<br>
+Tema 10: Ejercicio 1, Ejercicio 2<br>
+Tema 11: Ejercicio 1<br>
+Tema 12: Ejercicio 1<br>
+
+<h2><a href="https://github.com/AlejandroAST/Open-BootCamp/tree/main/Java%20Basico">Curso Java Básico</a></h2>
+Tema 1:	 Ejercicio 1, <br>
