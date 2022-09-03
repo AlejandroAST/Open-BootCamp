@@ -1,10 +1,10 @@
 # Open-BootCamp
 <h1>Cursos</h1>
 <h2><a href="https://github.com/AlejandroAST/Open-BootCamp/tree/main/Introduccion%20a%20la%20programacion">Ejercicios de introduccion</a></h2>
-	<h3>Tema 3 -> Ejercicio 1, Ejercicio 2</h3>
-	<h3>Tema 4</h3> 
-	<h3>Tema 8</h3> 
-	<h3>Tema 9</h3> 
+Tema 3 -> Ejercicio 1, Ejercicio 2
+Tema 4
+Tema 8
+Tema 9
 
 <h2>Curso Python</h2>
 	<h3>Tema 1</h3>
