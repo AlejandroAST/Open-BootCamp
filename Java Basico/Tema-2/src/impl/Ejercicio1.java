@@ -16,6 +16,7 @@ public class Ejercicio1 {
 
         System.out.printf("Escribe el precio sin IVA ");
 
+        //Crear el inputstream reader y buffered reader para recoger los datos del teclado
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         double precioSinIVA=0.0;
@@ -25,9 +26,11 @@ public class Ejercicio1 {
             System.out.printf("Valor sin IVA: ");
             precioSinIVA = Double.parseDouble(br.readLine());
 
+            //Operaciones
             precioConIVA = precioSinIVA * 0.21 +precioSinIVA;
             precioConIVAReducido10 = precioSinIVA * 0.10 +precioSinIVA;100
             precioConIVAReducido4 = precioSinIVA * 0.04 +precioSinIVA;
+
             System.out.println("----------------------------------------------------------------");
             System.out.println ("El precio con IVA general: " +precioConIVA+"€");
             System.out.println ("El precio con IVA reducido 10%: " +precioConIVAReducido10+"€");
