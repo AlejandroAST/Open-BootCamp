@@ -4,17 +4,17 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Vector;
+import java.util.*;
 
-public class main {
+public class Ejercicio_1 {
+
     public static void main(String[] args) {
-        System.out.printf("" +
-                "<>-------<> TEMA 7-8-9 <>-------<>\n" +
-                "+-------------------------------+\n" +
-                "|          Ejercicio 1          |\n"+
-                "+-------------------------------+\n");
+        System.out.print("""
+                <>-------<> TEMA 7-8-9 <>-------<>
+                +-------------------------------+
+                |          Ejercicio 1          |
+                +-------------------------------+
+                """);
 
         System.out.println("Hola mundo");
         System.out.println(reverse("Hola mundo"));
@@ -73,7 +73,7 @@ public class main {
         }
 
         //Copia del array list a listaEnlazada
-        LinkedList<String> listaEnlazada = new LinkedList<String>(arrayListString);
+        LinkedList<String> listaEnlazada = new LinkedList<>(arrayListString);
         System.out.println("\nContenido de la LinkedList:");
         for(String s : listaEnlazada){
             System.out.print(" "+s);
@@ -91,8 +91,12 @@ public class main {
         }
         for(int i=0;i<arrayListInt.size(); i++){
             int elemento=arrayListInt.get(i);
-            if(elemento % 2 == 0){
-                arrayListInt.remove(i);
+            if(elemento % 2 == 0) {
+                try {
+                    arrayListInt.remove(i);
+                }catch(IndexOutOfBoundsException  e){
+                    System.out.println("Exception fuera de rango:"+ e.getMessage());
+                }
             }
         }
         System.out.println("Contenido del arrayListInt:");
@@ -137,6 +141,20 @@ public class main {
 
         //9-Sorpréndenos creando un programa de tu elección que utilice InputStream, PrintStream,
         // excepciones, un HashMap y un ArrayList, LinkedList o array.
+        System.out.println("Parte 9:\n----------------------------------------------------------------");
+        HashMap<String,Integer> mapa=new HashMap<>();
+        mapa.put("clave1", 10);
+        mapa.put("clave2", 20);
+        mapa.put("clave3", 30);
+        mapa.put("clave4", 40);
+
+        System.out.println("Contenido del mapa:");
+        System.out.println(mapa);
+        System.out.println("Recorrer el mapa elemento a elemento:");
+        for(Map.Entry<String, Integer> elemento:mapa.entrySet()){
+            System.out.print(elemento.getKey()+" -> ");
+            System.out.println(elemento.getValue());
+        }
 
 
     }
@@ -164,6 +182,13 @@ public class main {
         }
     }
 
+    /**
+     * Metodo que realiza una division por 0 para lanzar una excepcion y probar a capturar
+     * Se ha añadido SuppressWarnings divzero para evitar el warnings
+     * @return Tipo entero resultado de la division
+     * @throws ArithmeticException Lanzar divzero
+     */
+    @SuppressWarnings("divzero")
     private static int DividePorCero() throws ArithmeticException{
         int valor1=2;
         int valor2=0;
@@ -174,7 +199,7 @@ public class main {
     public static String reverse(String texto) {
         String textoAlReves="";
         for (int i=texto.length()-1; i>=0; i--){
-            textoAlReves+=texto.charAt(i);
+            textoAlReves = "%s%s".formatted(textoAlReves, texto.charAt(i));
         }
         return textoAlReves;
     }
