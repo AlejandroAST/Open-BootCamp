@@ -1,0 +1,2 @@
+-Fichero de Entrada
+Contine la informacion que se copia en el fichero fileOut
