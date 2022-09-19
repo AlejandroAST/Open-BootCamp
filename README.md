@@ -28,7 +28,7 @@ Tema 4:	 Ejercicio 1 <br>
 Tema 5:	 Ejercicio 1 <br>
 Tema 7-8-9:	 Ejercicio 1 <br>
 
-<h2><a href="https://github.com/AlejandroAST/Open-BootCamp/tree/main/Java%20Basico">Spring</a></h2>
+<h2><a href="https://github.com/AlejandroAST/Open-BootCamp/tree/main/Spring">Spring</a></h2>
 Tema 1:	 Ejercicio 1 <br>
 Tema 2:	 Ejercicio 2 <br>
 Tema 3:	 Ejercicio 3 <br>
