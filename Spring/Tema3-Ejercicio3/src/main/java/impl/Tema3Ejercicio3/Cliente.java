@@ -27,10 +27,6 @@ public class Cliente {
         this.numero_tarjeta = numero_tarjeta;
     }
 
-    public Long getId() {
-        return id;
-    }
-
     public void setId(Long id) {
         this.id = id;
     }

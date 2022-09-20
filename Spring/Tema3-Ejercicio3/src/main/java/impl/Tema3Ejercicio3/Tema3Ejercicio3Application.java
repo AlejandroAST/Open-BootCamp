@@ -4,6 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+
+import java.util.List;
+
 @SpringBootApplication
 public class Tema3Ejercicio3Application {
 
@@ -33,6 +36,11 @@ public class Tema3Ejercicio3Application {
                 """);
 
 		System.out.println("Numero de clientes almacenados: "+ repositorioClientes.count());
+		List<Cliente> lista=repositorioClientes.findAll();
+		for(Cliente cliente : lista) {
+			System.out.println(cliente.toString());
+		}
+
 		System.out.println("__________________________________________________________");
 	}
 
