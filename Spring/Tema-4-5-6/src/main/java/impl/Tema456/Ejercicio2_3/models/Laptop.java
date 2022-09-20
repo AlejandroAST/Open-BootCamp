@@ -1,4 +1,4 @@
-package impl.Tema456.Ejercicio2.models;
+package impl.Tema456.Ejercicio2_3.models;
 
 
 import javax.persistence.*;

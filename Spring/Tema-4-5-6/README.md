@@ -47,6 +47,26 @@ _Para buscar por id sustituir la '?' por el numero long id correspondiente_
 http://localhost:8080/api/laptops/?
 ```
 
+### Ejercicio 3
+#### Nota: Ejercicio 3 - se usa el mismo LaptopController del ejercicio 2
+
+_Para insertar un nuevo portatil, usamos el metodo POST en la siguiente direccion_
+
+```
+http://localhost:8080/api/laptops
+```
+_Plantilla del JSON Nota:'ID no es necesario se autogenera'_
+
+```
+{
+    "nombre": "NOMBRE_PORTATIL",
+    "marca": "MARCA_PORTATIL",
+    "precio": 1234
+}
+```
+
+
+
 ## Autores ✒️
 
 * **Alejandro Fernández** - *Spring* - [mi cuenta github](https://github.com/AlejandroAST)

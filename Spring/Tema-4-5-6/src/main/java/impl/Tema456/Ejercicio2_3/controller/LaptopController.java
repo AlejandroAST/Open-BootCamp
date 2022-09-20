@@ -1,12 +1,10 @@
-package impl.Tema456.Ejercicio2.controller;
+package impl.Tema456.Ejercicio2_3.controller;
 
 
-import impl.Tema456.Ejercicio2.models.Laptop;
-import impl.Tema456.Ejercicio2.repository.LaptopRepository;
+import impl.Tema456.Ejercicio2_3.models.Laptop;
+import impl.Tema456.Ejercicio2_3.repository.LaptopRepository;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
@@ -49,6 +47,17 @@ public class LaptopController {
         // opcion 2
         //return portatilOpt.orElse(null);
         // return portatilOpt.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
+    }
+
+    /**
+     * EJERCICIO 3
+     * Metodo que añade Portati mediante un POST a api/laptops.
+     * Los objetos portatil deben tener todos los campos menos el id que es autogenerado
+     * @param portatil Portatil nuevo
+     */
+    @PostMapping("/api/laptops")
+    public Laptop create(@RequestBody Laptop portatil){
+        return repositorioPortatiles.save(portatil);
     }
 
 

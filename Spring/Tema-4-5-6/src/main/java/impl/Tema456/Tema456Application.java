@@ -1,7 +1,7 @@
 package impl.Tema456;
 
-import impl.Tema456.Ejercicio2.models.Laptop;
-import impl.Tema456.Ejercicio2.repository.LaptopRepository;
+import impl.Tema456.Ejercicio2_3.models.Laptop;
+import impl.Tema456.Ejercicio2_3.repository.LaptopRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
