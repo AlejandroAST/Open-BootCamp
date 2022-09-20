@@ -30,6 +30,22 @@ _Los objetos Laptop se pueden insertar desde el método main de la clase princip
 _Crear un método en LaptopController que reciba un objeto Laptop enviado en formato JSON desde Postman y persistirlo en la base de datos.
 Comprobar que al obtener de nuevo los laptops aparece el nuevo ordenador creado._
 
+## Ejecutando las pruebas ⚙️
+
+### Ejercicio 1
+_Direccion para la conexion del saludo_
+```
+http://localhost:8080/saludo
+```
+### Ejercicio 2
+_Mostrar la lista de laptops_
+```
+http://localhost:8080/api/laptops
+```
+_Para buscar por id sustituir la '?' por el numero long id correspondiente_
+```
+http://localhost:8080/api/laptops/?
+```
 
 ## Autores ✒️
 
