@@ -27,6 +27,7 @@ _Con click derecho dentro del código de la clase LaptopController utilizar la o
 
 ## Ejecutando las pruebas ⚙️
 NO ACABADO
+
 ### Ejercicio 1
 _Direccion para la conexion de la listas laptops_
 ```
