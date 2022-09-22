@@ -26,14 +26,6 @@ _Crear casos de test para el controlador de Laptop desde Spring Boot._
 _Con click derecho dentro del código de la clase LaptopController utilizar la opción Generate > Test para crear la clase con todos los tests unitarios e implementarlos siguiente el proceso visto en clase._
 
 
-## Ejecutando las pruebas ⚙️
-NO ACABADO
-
-### Ejercicio 1
-_Direccion para la conexion de la listas laptops_
-```
-http://localhost:8080/api/laptops
-```
 
 ## Arreglo 🛠️
 _En el fichero application.properties de la carpeta de resources añadir:_
