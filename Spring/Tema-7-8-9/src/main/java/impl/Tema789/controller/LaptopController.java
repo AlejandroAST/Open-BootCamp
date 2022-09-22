@@ -28,12 +28,18 @@ public class LaptopController {
     @GetMapping("/api/laptops")
     public ResponseEntity<List<Laptop>> findAll(){
         //List<Laptop> Retorno antiguo
-        log.info("REST Request for get all laptops");
         //return repositorioPortatiles.findAll();
+        log.info("REST Request for get all laptops");
+        //Si el repositorio portatiles tiene al menos 1 lo devuelve sino esta vacio
+        if(repositorioPortatiles.count() >= 1){
+            Optional<List<Laptop>> listaPortatilesOpt = Optional.of(repositorioPortatiles.findAll());
 
-        Optional<List<Laptop>> listaPortatilesOpt = Optional.of(repositorioPortatiles.findAll());
+            return ResponseEntity.ok(listaPortatilesOpt.get());
+        }else{
+            log.warn("Trying to show a non existent list laptops");
+            return ResponseEntity.notFound().build();
+        }
 
-        return ResponseEntity.ok(listaPortatilesOpt.get());
     }
 
     /**
@@ -50,9 +56,10 @@ public class LaptopController {
         // opcion 1
         if(portatilOpt.isPresent())
             return ResponseEntity.ok(portatilOpt.get());
-        else
+        else {
+            log.warn("Trying to show a non existent laptop");
             return ResponseEntity.notFound().build();
-
+        }
         // opcion 2
         //return portatilOpt.orElse(null);
         // return portatilOpt.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
@@ -68,7 +75,11 @@ public class LaptopController {
         log.info("REST Request for create laptop");
         //return repositorioPortatiles.save(portatil);
 
-        Laptop portatilModificado=null;
+        if(portatil.getId() != null){ // ese id ya existe
+            log.warn("Trying to create a book with id, laptop not valid");
+            return ResponseEntity.badRequest().build();
+        }
+        Laptop portatilModificado=repositorioPortatiles.save(portatil);
 
         return ResponseEntity.ok(portatilModificado);
     }
@@ -80,7 +91,17 @@ public class LaptopController {
     @PutMapping("/api/laptops")
     public ResponseEntity<Laptop> update(@RequestBody Laptop portatil){
         log.info("REST Request for put laptop");
-        Laptop portatilModificado=null;
+
+        if(portatil.getId() == null ){ //el id no puede ser nulo, para actualizar
+            log.warn("Trying to update a non existent laptop");
+            return ResponseEntity.badRequest().build();
+        }
+        if(!repositorioPortatiles.existsById(portatil.getId())){ //el id no esta en el repositorioPortatiles
+            log.warn("Trying to update a non existent laptop");
+            return ResponseEntity.notFound().build();
+        }
+
+        Laptop portatilModificado=repositorioPortatiles.save(portatil);
 
         return ResponseEntity.ok(portatilModificado);
     }
@@ -92,6 +113,15 @@ public class LaptopController {
     @DeleteMapping("/api/laptops/{id}")
     public ResponseEntity<Laptop> delete(@PathVariable Long id){
         log.info("REST Request for delete by id laptop");
+
+        if(!repositorioPortatiles.existsById(id)){
+            log.warn("Trying to delete a non existent laptop");
+            return ResponseEntity.notFound().build();
+        }
+
+        repositorioPortatiles.deleteById(id);
+
+
         return ResponseEntity.noContent().build();
     }
 
@@ -101,6 +131,11 @@ public class LaptopController {
     @DeleteMapping("/api/laptops")
     public ResponseEntity<Laptop> deleteAll(){
         log.info("REST Request for delete all laptops");
+        if(repositorioPortatiles.count() < 1){
+            log.warn("Trying to delete empty repository");
+            return ResponseEntity.notFound().build();
+        }
+        repositorioPortatiles.deleteAll();
         return ResponseEntity.noContent().build();
     }
 }
