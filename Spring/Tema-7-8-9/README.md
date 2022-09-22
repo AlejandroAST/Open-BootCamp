@@ -25,6 +25,7 @@ http://localhost:8081/swagger-ui/
 _Crear casos de test para el controlador de Laptop desde Spring Boot._
 _Con click derecho dentro del código de la clase LaptopController utilizar la opción Generate > Test para crear la clase con todos los tests unitarios e implementarlos siguiente el proceso visto en clase._
 
+
 ## Ejecutando las pruebas ⚙️
 NO ACABADO
 
@@ -33,6 +34,13 @@ _Direccion para la conexion de la listas laptops_
 ```
 http://localhost:8080/api/laptops
 ```
+
+## Arreglo 🛠️
+_En el fichero application.properties de la carpeta de resources añadir:_
+```
+spring.mvc.pathmatch.matching-strategy=ant_path_matcher
+```
+_Evita errores con la version 3.0.0 del springfox-boot-starter_
 
 
 ## Autores ✒️
