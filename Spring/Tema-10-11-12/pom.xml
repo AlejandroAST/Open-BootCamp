@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>impl</groupId>
 	<artifactId>Tema-10-11-12</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>Tema-10-11-12</name>
 	<description>Tema-10-11-12 Ejercicio 1, 2, 3</description>
 	<properties>
