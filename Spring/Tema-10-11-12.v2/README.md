@@ -41,6 +41,19 @@ Version de Heroku
 
 [Enlace al Repositorio para Heroku](https://github.com/AlejandroAST/Tema-10-11-12)
 
+#### Ejercicio 3
+_Añadidos dos usuarios y una pagina web abierta a todo el mundo._
+_Pagina abierta_
+```
+http://localhost:8080/holaMundo
+```
+_Usuarios:_
+* user:password
+* pedro:pedro
+```
+http://localhost:8080/api/laptops
+```
+
 ## Autores ✒️
 
 * **Alejandro Fernández** - *Spring* - [mi cuenta github](https://github.com/AlejandroAST)
