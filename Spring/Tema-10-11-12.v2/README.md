@@ -36,6 +36,11 @@ java -jar .\target\Tema-10-11-12-1.0.jar
 ```
 _Añadidos dos application.properties, uno correspondiente a desarrollo y otro a test. En el generico se cambia cual se utiliza_
 
+#### Ejercicio 2
+Version de Heroku
+
+[Enlace al Repositorio para Heroku](https://github.com/AlejandroAST/Tema-10-11-12)
+
 ## Autores ✒️
 
 * **Alejandro Fernández** - *Spring* - [mi cuenta github](https://github.com/AlejandroAST)
